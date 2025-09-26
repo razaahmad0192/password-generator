@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@media (max-width:380px) {
+  .inputBox{
+    
+    flex-direction: column;
+  }
+}
+
+/* 🌐 For Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 12px; /* scrollbar width */
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* scrollbar track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555;       /* scrollbar thumb */
+  border-radius: 6px;           /* rounded edges */
+  border: 3px solid #1e1e1e;    /* gives padding around thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #888; /* on hover */
+}
+
+/* 🦊 For Firefox */
+* {
+  scrollbar-width: thin;             /* thin scrollbar */
+  scrollbar-color: #555 #1e1e1e;     /* thumb, track */
+}
+
+/* 📱 Remove blue highlight when tapping links/buttons on mobile */
+* {
+  -webkit-tap-highlight-color: transparent;
+}

@@ -1,16 +1,55 @@
-# React + Vite
+# 🔐 React Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive password generator built with **React** and **Tailwind CSS**.  
+Users can generate random passwords of custom length, with optional numbers and special characters.  
+Includes a **Copy to Clipboard** feature for quick usage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Generate random passwords instantly
+- Control password length with a slider (6–15)
+- Toggle inclusion of:
+  - ✅ Numbers
+  - ✅ Special Characters
+- Copy generated password to clipboard
+- Fully responsive and styled with **Tailwind CSS**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## [Live Demo](https://pass-generator-reactt.netlify.app/)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **React** (functional components, hooks)
+- **Tailwind CSS** (styling)
+- **JavaScript (ES6)**
+
+---
+## ⚙️ Installation & Setup
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/password-generator.git
+   cd password-generator
+   npm install 
+   npm run dev
+
+2. Open in Browser:
+   ```bash
+   http://localhost:5173
+   
+---
+## ⚙️ Deployment
+
+1. Build Command:
+   ```bash
+   npm run build
+
+2. Publish directory:
+   ```bash
+   dist
+## 📄 License
+
+- This project is licensed under the MIT License - see the LICENSE
+ file for details.
